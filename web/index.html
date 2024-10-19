@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+  -->
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="fitness_tracker">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>fitness_tracker</title>
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Add Firebase SDKs -->
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js"></script>
+
+  <script>
+    // Import the functions you need from the SDKs you need
+    // Initialize Firebase
+    const firebaseConfig = {
+      apiKey: "AIzaSyDA8NZh9SEDyTbKXQAe74XYs86RIdh75Lk",
+      authDomain: "fitness-tracker-bc4b5.firebaseapp.com",
+      projectId: "fitness-tracker-bc4b5",
+      storageBucket: "fitness-tracker-bc4b5.appspot.com",
+      messagingSenderId: "38879352746",
+      appId: "1:38879352746:web:f4b5c7cab3ced90bf2fdd3"
+    };
+
+    // Initialize Firebase app
+    const app = firebase.initializeApp(firebaseConfig);
+  </script>
+</head>
+<body>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
